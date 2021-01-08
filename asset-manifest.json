@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/qq-website/static/css/main.8e086778.chunk.css",
-    "main.js": "/qq-website/static/js/main.16c92966.chunk.js",
-    "main.js.map": "/qq-website/static/js/main.16c92966.chunk.js.map",
+    "main.css": "/qq-website/static/css/main.400cdfda.chunk.css",
+    "main.js": "/qq-website/static/js/main.17bcd365.chunk.js",
+    "main.js.map": "/qq-website/static/js/main.17bcd365.chunk.js.map",
     "runtime-main.js": "/qq-website/static/js/runtime-main.49e970be.js",
     "runtime-main.js.map": "/qq-website/static/js/runtime-main.49e970be.js.map",
     "static/js/2.5be1d4e4.chunk.js": "/qq-website/static/js/2.5be1d4e4.chunk.js",
     "static/js/2.5be1d4e4.chunk.js.map": "/qq-website/static/js/2.5be1d4e4.chunk.js.map",
     "index.html": "/qq-website/index.html",
-    "static/css/main.8e086778.chunk.css.map": "/qq-website/static/css/main.8e086778.chunk.css.map",
+    "static/css/main.400cdfda.chunk.css.map": "/qq-website/static/css/main.400cdfda.chunk.css.map",
     "static/js/2.5be1d4e4.chunk.js.LICENSE.txt": "/qq-website/static/js/2.5be1d4e4.chunk.js.LICENSE.txt",
     "static/media/HomeImg.css": "/qq-website/static/media/home.68a9024a.jpg",
     "static/media/Remove.css": "/qq-website/static/media/pbg.5248c5a0.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.49e970be.js",
     "static/js/2.5be1d4e4.chunk.js",
-    "static/css/main.8e086778.chunk.css",
-    "static/js/main.16c92966.chunk.js"
+    "static/css/main.400cdfda.chunk.css",
+    "static/js/main.17bcd365.chunk.js"
   ]
 }
