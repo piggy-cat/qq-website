@@ -37,6 +37,9 @@
 }
 
 @media screen and (max-width: 960px) {
+  .remove-container {
+    height: 150%;
+  }
   .rip {
     display: flex;
     flex-direction: column;

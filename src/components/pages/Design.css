@@ -37,6 +37,10 @@
 }
 
 @media screen and (max-width: 960px) {
+  .design-container {
+    height: 150%;
+  }
+
   .dip {
     display: flex;
     flex-direction: column;
