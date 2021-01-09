@@ -9,7 +9,7 @@ export default function Remove() {
       <div className="rip">
         <img
           className="ri"
-          src={process.env.PUBLIC_URL + "/images/remove.jpg"}
+          src={process.env.PUBLIC_URL + "/images/remove.JPG"}
           alt="removing"
         ></img>
         <p className="rp">

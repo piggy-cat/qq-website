@@ -1,55 +1,20 @@
 import React, { Component } from "react";
 import "./Contact.css";
-import { Map, Marker, GoogleApiWrapper, InfoWindow } from "google-maps-react";
 
 class Contact extends Component {
-  state = { showingInfoWindow: true, activeMarker: {}, selectedPlace: {} };
+  state = {};
 
-  onMarkerClick = (props, marker) =>
-    this.setState({
-      selectedPlace: props,
-      activeMarker: marker,
-      showingInfoWindow: true,
-    });
-
-  onMapClicked = (props) => {
-    if (this.state.showingInfoWindow) {
-      this.setState({
-        showingInfoWindow: false,
-        activeMarker: null,
-      });
-    }
-  };
   render() {
     return (
       <div id="contact" className="contact">
         <h1 className="contact-title">CONTACT US</h1>
         <div className="contact-container">
-          {/* <div className="map-container">
-            <Map
-              style={{ width: "30%", height: "50%" }}
-              google={this.props.google}
-              zoom={14}
-              initialCenter={{
-                lat: 43.70284221437839,
-                lng: -79.7561515531371,
-              }}
-            >
-              <Marker
-                onClick={this.onMarkerClick}
-                title={"Netribbon"}
-                name={"Netribbon"}
-              />
-              <InfoWindow
-                marker={this.state.activeMarker}
-                visible={this.state.showingInfoWindow}
-              >
-                <div>
-                  <h2>{this.state.selectedPlace.name}</h2>
-                </div>
-              </InfoWindow>
-            </Map>
-          </div> */}
+          <img
+            src={process.env.PUBLIC_URL + "/images/ggmap.jpg"}
+            alt="ggmap"
+            className="map-image"
+          ></img>
+
           <div className="form-container">
             <section className="address">
               <p>227 Vodden St E, Brampton, ON L6V 3C9,</p>
@@ -92,6 +57,4 @@ class Contact extends Component {
   }
 }
 
-export default GoogleApiWrapper({
-  apiKey: "AIzaSyBIG0hzWMxXmuQBVRuCoIZ1I6JAelmKLPY",
-})(Contact);
+export default Contact;

@@ -2,29 +2,32 @@
   padding-top: 20px;
   background-color: #1c6ca1;
   padding-bottom: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-container {
   display: flex;
-  flex-direction: column;
-  align-content: center;
 
   height: 500px;
 }
 
+.map-image {
+  align-self: center;
+  margin-right: 50px;
+}
 .contact-title {
   text-align: center;
   font-size: 3rem;
   color: #fff;
+  padding-bottom: 50px;
 }
 
 .map-container {
-  float: left;
   align-items: center;
-  width: 100%;
+
   height: 100%;
-  left: 200px;
-  size: auto;
 }
 
 .submit-button {
@@ -65,4 +68,16 @@
   height: 80px;
   width: 300px;
   resize: none;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .map-image {
+    margin-right: 0px;
+  }
 }
