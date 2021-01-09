@@ -7,12 +7,14 @@ import Protect from "./components/pages/Protect";
 import Design from "./components/pages/Design";
 import Remove from "./components/pages/Remove";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/Scroll";
 
 function App() {
   return (
     <>
       <Router>
         <Navbar></Navbar>
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route
