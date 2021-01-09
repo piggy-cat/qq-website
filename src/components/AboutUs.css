@@ -1,0 +1,26 @@
+.ah1 {
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 3rem;
+  color: #1c6ca1;
+}
+
+.ap {
+  color: rgb(50, 113, 165);
+  width: 730px;
+  align-self: center;
+  margin-bottom: 50px;
+}
+.about-container {
+  background-color: lightsteelblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  .ap {
+    width: 70%;
+  }
+}

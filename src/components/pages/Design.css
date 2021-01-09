@@ -1,0 +1,54 @@
+.design-container {
+  background-image: url("../../Img/pbg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.dip {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.dh1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 50px;
+  font-size: 3rem;
+  color: rgb(26, 162, 247);
+  width: auto;
+  text-align: center;
+}
+
+.dp {
+  max-width: 650px;
+  margin-left: 90px;
+}
+
+@media screen and (max-width: 960px) {
+  .dip {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .dp {
+    margin: 30px;
+  }
+
+  .dh1 {
+    margin-top: 5rem;
+    text-align: center;
+  }
+}
