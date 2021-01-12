@@ -9,7 +9,6 @@
 
 .contact-container {
   display: flex;
-
   height: 500px;
 }
 
@@ -75,9 +74,13 @@
     flex-direction: column;
     align-items: center;
     height: auto;
+    width: 90%;
   }
 
   .map-image {
     margin-right: 0px;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
   }
 }
