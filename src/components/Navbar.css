@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #1c6ca1;
+  background-color: #113f67;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -20,9 +20,10 @@
   width: auto;
 }
 .navbar-logo {
-  color: rgb(140, 179, 224);
+  color: #87c0cd;
   justify-self: start;
   margin-left: 50px;
+  margin-right: 150px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2.5rem;
@@ -43,7 +44,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #f3f9fb;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -53,7 +54,7 @@
 }
 
 .nav-links:hover {
-  color: aqua;
+  color: #87c0cd;
   transition: 0.5s ease-in-out;
 }
 
@@ -100,15 +101,15 @@
   }
 
   .nav-links:hover {
-    background-color: #1c6ca1;
-    color: aqua;
+    background-color: #113f67;
+    color: #87c0cd;
     transition: all 0.5s ease;
   }
 
   .menu-icon {
     display: block;
     position: absolute;
-    color: #fff;
+    color: #f3f9fb;
     top: 5px;
     right: 0;
     transform: translate(-100%, 60%);

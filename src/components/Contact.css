@@ -1,6 +1,6 @@
 .contact {
   padding-top: 20px;
-  background-color: #1c6ca1;
+  background-color: #113f67;
   padding-bottom: 50px;
   align-items: center;
   display: flex;
@@ -19,7 +19,7 @@
 .contact-title {
   text-align: center;
   font-size: 3rem;
-  color: #fff;
+  color: #f3f9fb;
   padding-bottom: 50px;
 }
 
@@ -31,20 +31,31 @@
 
 .submit-button {
   text-align: center;
-  align-self: auto;
-  background-color: #5dbdfd;
+
   width: auto;
-  margin-bottom: 30px;
+
   text-decoration: none;
-  color: #fff;
+
   font-size: 1.2rem;
-  padding: 10px;
-  box-sizing: border-box;
+
+  font-family: Arial;
+  color: #ffffff;
+
+  background: #226597;
+  padding: 15px 40px 15px 40px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.submit-button:hover {
+  color: #113f67;
+  text-decoration: none;
 }
 
 .address {
   text-align: center;
   font-size: 1.2rem;
+  color: #226597;
 }
 
 .form-container {

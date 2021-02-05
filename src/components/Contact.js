@@ -22,7 +22,7 @@ class Contact extends Component {
               <p>netribbon@outlook.com</p>
               <p>Tel: 416-615-3453</p>
             </section>
-            <form className="form-input">
+            <form action="/" className="form-input" method="POST">
               <input
                 className="input-class"
                 type="text"
@@ -48,7 +48,9 @@ class Contact extends Component {
                 placeholder="Type your message here..."
               />
 
-              <input className="submit-button" type="submit" value="Submit" />
+              <button className="submit-button" type="submit">
+                Submit
+              </button>
             </form>
           </div>
         </div>

@@ -2,17 +2,28 @@
   text-align: center;
   padding-top: 10vh;
   font-size: 3rem;
-  color: #1c6ca1;
+  color: #113f67;
 }
 
-.ap {
-  color: rgb(50, 113, 165);
+.ap1,
+.ap2,
+.ap3 {
+  color: #226597;
   width: 730px;
   align-self: center;
-  margin-bottom: 50px;
+  margin: 0;
 }
+
+.ap1 {
+  padding-top: 5%;
+}
+
+.ap3 {
+  padding-bottom: 7%;
+}
+
 .about-container {
-  background-color: lightsteelblue;
+  background-color: #d3e0ea;
   display: flex;
   flex-direction: column;
   justify-content: center;
