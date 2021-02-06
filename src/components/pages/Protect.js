@@ -9,7 +9,7 @@ export default function Protect() {
       <div className="pip">
         <img
           className="pi"
-          src={process.env.PUBLIC_URL + "/images/protect.JPG"}
+          src={process.env.PUBLIC_URL + "/images/protect.png"}
           alt="protectimg"
         ></img>
         <p className="pp">

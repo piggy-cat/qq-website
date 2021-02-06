@@ -35,6 +35,9 @@
   max-width: 650px;
   margin-left: 90px;
 }
+.di {
+  width: 20vw;
+}
 
 @media screen and (max-width: 960px) {
   .design-container {
@@ -54,5 +57,9 @@
   .dh1 {
     margin-top: 5rem;
     text-align: center;
+  }
+
+  .di {
+    width: 70%;
   }
 }

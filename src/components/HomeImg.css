@@ -1,16 +1,15 @@
 .img-container {
-  background-image: url("../Img/home.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 80vh;
   width: 100%;
-  flex-direction: column;
 }
 
+.hi {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
 @media screen and (max-width: 960px) {
   .img-container {
-    width: auto;
-    height: 65vh;
+    height: 20vh;
   }
 }

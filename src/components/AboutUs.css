@@ -11,7 +11,7 @@
   color: #226597;
   width: 730px;
   align-self: center;
-  margin: 0;
+  margin: 0 10% 0;
 }
 
 .ap1 {
@@ -31,7 +31,13 @@
 }
 
 @media screen and (max-width: 960px) {
-  .ap {
-    width: 70%;
+  .ap1,
+  .ap2,
+  .ap3 {
+    width: 80%;
+  }
+
+  .about-container {
+    margin-bottom: 20px;
   }
 }

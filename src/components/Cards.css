@@ -11,6 +11,7 @@
 
 .cards-wrapper {
   margin: 50px 0 45px 0;
+  text-align: center;
 }
 
 .item {
@@ -67,6 +68,17 @@
 
 @media screen and (max-width: 960px) {
   .item {
-    margin: 2rem;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .item-text {
+    padding: 5% 10% 10%;
+  }
+
+  .cards-wrapper {
+    margin: 0px 0 20px 0;
+    text-align: center;
   }
 }

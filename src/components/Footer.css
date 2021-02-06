@@ -8,6 +8,9 @@
   align-items: center;
 }
 
+.footer-text {
+  color: #f6f5f5;
+}
 .social-wrapper {
   display: flex;
   flex-direction: row;

@@ -9,7 +9,7 @@ export default function Design() {
       <div className="dip">
         <img
           className="di"
-          src={process.env.PUBLIC_URL + "/images/design.JPG"}
+          src={process.env.PUBLIC_URL + "/images/design.jpg"}
           alt="designimg"
         ></img>
         <p className="dp">
